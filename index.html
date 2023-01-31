@@ -10,7 +10,10 @@
 <body>
     <script src = "game.js"></script>
     <script>
-        console.log(getComputerChoice());
+        let playerSelection = prompt("Please Pick");
+        playerSelection = playerSelection.toLowerCase();
+
+        console.log(playRound(playerSelection));
     </script>
 </body>
 </html>
